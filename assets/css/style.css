@@ -82,6 +82,21 @@ a{
 .bg-light{
     background-color: #EFF7FF;
 }
+.img-width{
+    width: 600px;
+}
+.pera{
+    font-size: 16px;
+    line-height: 30px;
+    color: #687587;
+    padding-right: 80px;
+    margin: 25px 0 25px 0;
+}
+.main-head{
+    font-size: 40px;
+    line-height: 55px;
+    color: #001E4F;
+}
 
 /* built-in css end */
 /* header section start */
@@ -123,13 +138,6 @@ a{
     line-height: 75px;
     color: #001E4F;
 }
-.banner-text p, .ticket-text p, .feature-text p{
-    font-size: 16px;
-    line-height: 30px;
-    color: #687587;
-    padding-right: 80px;
-    margin: 25px 0 25px 0;
-}
 .banner-text > .btn{
     font-size: 17px;
     padding: 15px 45px;
@@ -166,16 +174,8 @@ a{
 #ticket-section{
     margin: 30px 0 80px 0;
 }
-.ticket-text{
+.ticket-text, .customer-text{
     margin-left: 80px;
-}
-.ticket-text h1{
-    font-size: 45px;
-    line-height: 55px;
-    color: #001E4F;
-}
-.ticket-img img, .banner-img img, .feature-img img{
-    width: 600px;
 }
 
 /* ticket section end */
@@ -200,6 +200,9 @@ a{
     color: #fff;
     margin: 60px 0 20px 0;
 }
+.feature-text > p{
+    color: #557198;
+}
 .icon-text{
     margin-bottom: 10px;
 }
@@ -220,4 +223,69 @@ a{
     margin-top: 30px;
     background-color: #2E4773;
     color: #fff;
+}
+
+/* feature section end */
+/* customer section start */
+
+#customer-section{
+    margin: 100px 0;
+}
+
+/* customer section end */
+/* workload section start */
+
+#workload-section{
+    padding-bottom: 80px;
+}
+
+/* workload section end */
+/* pricing section start */
+
+#pricing-section{
+    padding: 100px 0;
+}
+.pricing-content{
+    margin-top: 60px;
+}
+.pricing-img > img{
+    width: 500px;
+}
+.pricing-price-sta, .pricing-price-plus{
+    padding: 15px 15px 15px 30px;
+    display: inline-block;
+    background-color: #fff;
+    margin-left: 35px;
+    border-radius: 25px;
+}
+.col-one{
+    width: 250px;
+}
+.col-one > .main-head{
+    font-size: 30px;
+}
+.col-one h3{
+    color: #00495B;
+}
+.col-two{
+    margin: 0 30px;
+}
+.col-two > .pera{
+    padding-right: 0px;
+    margin-top: 0;
+    font-size: 18px;
+}
+.col-three{
+    background-color: #001E4F;
+    padding: 35px;
+    width: 160px;
+    border-radius: 25px;
+    text-align: center;
+}
+.col-three h1, .col-three h5{
+    color: #D3E1F9;
+    padding: 5px 0;
+}
+.pricing-price-plus{
+    margin-top: 30px;
 }
