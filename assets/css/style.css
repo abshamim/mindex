@@ -1,13 +1,13 @@
-/* Built-in CSS start */
+/* built-in css start */
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 .container{
-    width: 1180px;
+    width: 1250px;
     margin: 0 auto;
 }
 .row{
@@ -35,10 +35,10 @@ body{
     width: 25%;
 }
 .semi-bold{
-    font-weight: 500;
+    font-weight: 600;
 }
 .prev-bold{
-    font-weight: 600;
+    font-weight: 700;
 }
 .bold{
     font-weight: 800;
@@ -68,13 +68,22 @@ a{
     background-color: #0085FE;
     color: #ffff;
 }
+.btn-gray{
+    font-size: 17px;
+    padding: 15px 45px;
+    display: inline-block;
+    background-color: #E7F0FD;
+    color: #0085FE;
+}
+.bg-light{
+    background-color: #EFF7FF;
+}
 
-/* Built-in CSS end*/
-/* Header Section start */
+/* built-in css end */
+/* header section start */
 
 #header-section{
     padding: 30px 0;
-    background-color: #EFF7FF;
 }
 .hiring{
     background-color: #00d6bb;
@@ -99,9 +108,71 @@ a{
     margin-left: 15px;
 }
 
+/* header section end */
+/* banner section start */
 
+#banner-section{
+    padding: 60px 0 80px 0;
+}
+.banner-text h1{
+    font-size: 70px;
+    line-height: 75px;
+    color: #001E4F;
+}
+.banner-text p, .ticket-text p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #687587;
+    padding-right: 80px;
+    margin: 25px 0 25px 0;
+}
+.banner-text > .btn{
+    font-size: 17px;
+    padding: 15px 45px;
+    display: inline-block;
+}
+.banner-text span{
+    font-size: 17px;
+    display: block;
+    color: #001E4F;
+    font-weight: 500;
+    margin-top: 100px;
+}
+.banner-text span a{
+    color: #001E4F;
+}
 
+/* banner section end */
+/* client section start */
 
+#client-section{
+    padding: 50px 0;
+}
+.client-text p{
+    font-size: 18px;
+    color: #001E4F;
+}
+.client-logo img{
+    width: 170px;
+}
+
+/* client section end */
+/* ticket section start */
+
+#ticket-section{
+    margin: 30px 0 80px 0;
+}
+.ticket-text{
+    margin-left: 80px;
+}
+.ticket-text h1{
+    font-size: 45px;
+    line-height: 55px;
+    color: #001E4F;
+}
+.ticket-img img {
+    width: 600px;
+}
 
 
 
