@@ -87,7 +87,7 @@ a{
 }
 .pera{
     font-size: 16px;
-    line-height: 30px;
+    line-height: 28px;
     color: #687587;
     padding-right: 80px;
     margin: 25px 0 25px 0;
@@ -289,3 +289,102 @@ a{
 .pricing-price-plus{
     margin-top: 30px;
 }
+
+/* pricing section end */
+/* news section start */
+
+#news-section{
+    margin: 100px 0;
+}
+#news-section h1{
+    color: #001E4F;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.ncontent-two{
+    margin: 0 15px;
+}
+.news-content img{
+    margin-left: -10px;
+    width: 100%;
+}
+.news-content h2{
+    font-size: 22px;
+    color: #032763;
+    line-height: 33px;
+    margin: 5px 8px 15px 0;
+}
+
+/* news section end */
+/* newsletter section start */
+
+#newsletter-section{
+    padding: 100px 0;
+    background-color: #001E4F;
+}
+.newsletter-text > h1{
+    color: #EFF5FF;
+}
+.newsltr-form-text{
+    margin-top: 60px;
+}
+.newsltr-form-text span, .newsltr-form-text span a{
+    color: #fff;
+}
+.newsletter-form input{
+    padding: 18px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    width: 250px;
+    font-family: 'Raleway', sans-serif;
+}
+.newsletter-form input::placeholder{
+    font-size: 16px;
+    font-weight: 500;
+}
+.newsletter-form .btn{
+    padding: 18px 40px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+/* newsletter section end */
+/* footer section start */
+
+#footer-section{
+    padding: 70px 0;
+}
+.footer-logo{
+    width: 450px;
+}
+.footer-logo img{
+    width: 170px;
+}
+.footer-logo > .pera{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.social-icons a i{
+    background-color: #001E4F;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 6px;
+}
+.foo-menu-item h1{
+    font-size: 20px;
+    color: #001E4F;
+    margin-bottom: 15px;
+}
+.foo-menu-item ul li a{
+    font-size: 17px;
+    color: #767E8B;
+    font-weight: 500;
+}
+.foo-menu-item ul li{
+    margin-bottom: 10px;
+}
+
+/* footer section start */
